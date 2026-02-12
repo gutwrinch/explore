@@ -3,7 +3,7 @@ source "https://rubygems.org"
 group :test do
   gem "fastimage"
   gem "minitest"
-  gem "octokit", "~> 4.22"
+  gem "octokit", "~> 4.23", ">= 4.23.0"
   gem "pry", require: false
   gem "rake"
   gem "rubocop", ">= 1.66.0"
